@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as n}from"./chunks/framework.MgE-7MWY.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"content/Классы/Вангард.md","filePath":"content/Классы/Вангард.md"}'),a={name:"content/Классы/Вангард.md"};function o(c,r,_,s,p,d){return n(),e("div")}const f=t(a,[["render",o]]);export{m as __pageData,f as default};
