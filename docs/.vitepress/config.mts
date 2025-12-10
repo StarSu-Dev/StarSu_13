@@ -127,8 +127,6 @@ function generateSidebar() {
 }
 
 // Конфигурация VitePress
-// Поиск
-
 export default defineConfig(async () => {
   const sidebar = generateSidebar();
   console.log(`Всего сгенерировано ${sidebar.length} категорий в сайдбаре`);
@@ -136,7 +134,8 @@ export default defineConfig(async () => {
     lang: "ru-RU",
     title: "StarSu_13",
     description: "Справочник по Starfinder (alpha)",
-
+    lastUpdated: true,
+    //Поиск
     themeConfig: {
       search: {
         provider: "local",
